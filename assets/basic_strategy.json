@@ -1,0 +1,79 @@
+{
+  "pair_splitting": {
+    "ace": "split",
+    "nine": {
+      "split": ["two", "three", "four", "five", "six", "eight", "nine"]
+    },
+    "eight": "split",
+    "seven": {
+      "split": ["two", "three", "four", "five", "six", "seven"]
+    },
+    "six": {
+      "split": ["two", "three", "four", "five", "six"]
+    },
+    "four": {
+      "split": ["five, six"]
+    },
+    "three": {
+      "split": ["two", "three", "four", "five", "six", "seven"]
+    },
+    "two": {
+      "split": ["two", "three", "four", "five", "six", "seven"]
+    }
+  },
+  "soft_totals": {
+    "nine": "stand",
+    "eight": {
+      "double": ["six"],
+      "else": "stand"
+    },
+    "seven": {
+      "double": ["two", "three", "four", "five", "six"],
+      "stand": ["seven", "eight"]
+    },
+    "six": {
+      "double": ["three", "four", "five", "six"]
+    },
+    "five": {
+      "double": ["four", "five", "six"]
+    },
+    "four": {
+      "double": ["four", "five", "six"]
+    },
+    "three": {
+      "double": ["five", "six"]
+    },
+    "two": {
+      "double": ["five", "six"]
+    }
+  },
+  "hard_totals": {
+    "21": "stand",
+    "20": "stand",
+    "19": "stand",
+    "18": "stand",
+    "17": "stand",
+    "16": {
+      "stand": ["two", "three", "four", "five", "six"]
+    },
+    "15": {
+      "stand": ["two", "three", "four", "five", "six"]
+    },
+    "14": {
+      "stand": ["two", "three", "four", "five", "six"]
+    },
+    "13": {
+      "stand": ["two", "three", "four", "five", "six"]
+    },
+    "12": {
+      "stand": ["four", "five", "six"]
+    },
+    "11": "double",
+    "10": {
+      "double": ["two", "three", "four", "five", "six", "seven", "eight", "nine"]
+    },
+    "9": {
+      "double": ["three", "four", "five", "six"]
+    }
+  }
+}
